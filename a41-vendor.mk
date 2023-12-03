@@ -332,4 +332,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a41/proprietary/vendor/lib64/unihal_main@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unihal_main@2.1.so \
     vendor/samsung/a41/proprietary/vendor/lib64/unihal_uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unihal_uniplugin@1.0.so \
     vendor/samsung/a41/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so \
-    vendor/samsung/a41/proprietary/vendor/lib64/vendor.samsung.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.nfc@2.0.so
+    vendor/samsung/a41/proprietary/vendor/lib64/vendor.samsung.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.nfc@2.0.so \
+    # Trustonic bringup
+    vendor/samsung/a41/proprietary/vendor/etc/init/trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustonic.rc \
+    vendor/samsung/a41/proprietary/vendor/etc/init/vendor.trustonic.tee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.1-service.rc \
+    vendor/samsung/a41/proprietary/vendor/lib/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.trustonic.so \
+    vendor/samsung/a41/proprietary/vendor/lib/hw/gatekeeper.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.trustonic.so \
+    vendor/samsung/a41/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
+    vendor/samsung/a41/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so \
+    vendor/samsung/a41/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
+    vendor/samsung/a41/proprietary/vendor/lib64/hw/gatekeeper.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.trustonic.so \
+    vendor/samsung/a41/proprietary/vendor/lib64/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.trustonic.so
